@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-background: #020617;
+  --color-card: #0b111e;
+  --color-card-border: #1e293b;
+  --color-muted: #94a3b8;
+}
+
+:root {
+  --background: 222 47% 5%;
+  --card: 222 47% 8%;
+  --border: 217 33% 18%;
+}
+
+body {
+  background-color: #020617;
+  color: #f8fafc;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Engineering Matrix & Grid Backgrounds */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Glassmorphic Cards */
+.glass-panel {
+  background: rgba(11, 17, 30, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(96, 165, 250, 0.35);
+  background: rgba(15, 23, 42, 0.85);
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Chapter Label Monospace Indicator (Inspired by shayanmitra.dev) */
+.chapter-label {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa 0%, #818cf8 50%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-emerald {
+  background: linear-gradient(135deg, #34d399 0%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+  border: 2px solid #020617;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+/* Technical Corner Accents */
+.tech-corner-tl {
+  position: relative;
+}
+.tech-corner-tl::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #60a5fa;
+  border-left: 2px solid #60a5fa;
+}
+
+.tech-corner-br {
+  position: relative;
+}
+.tech-corner-br::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #60a5fa;
+  border-right: 2px solid #60a5fa;
+}
