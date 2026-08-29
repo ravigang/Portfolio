@@ -35,6 +35,16 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  const handleNavClick = (e, href) => {
+  e.preventDefault();
+  setMobileMenuOpen(false);
+  const targetId = href.replace('#', '');
+  const targetElement = document.getElementById(targetId);
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled 
@@ -89,7 +99,7 @@ export default function Navbar() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.9)]"></span>
               </span>
-              <span>Available for work</span>
+              <span>Open to Opportunities</span>
             </div>
 
             <a
@@ -126,17 +136,19 @@ export default function Navbar() {
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[#020617]/95 backdrop-blur-2xl border-b border-white/10 overflow-hidden"
-          >
+  initial={{ opacity: 0, height: 0 }}
+  animate={{ opacity: 1, height: 'auto' }}
+  exit={{ opacity: 0, height: 0 }}
+  className="md:hidden bg-[#020617]/95 backdrop-blur-2xl border-b border-white/10 overflow-hidden absolute top-full left-0 right-0 z-40"
+>
             <div className="px-5 pt-3 pb-6 space-y-2">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
+                  //onClick={() => setMobileMenuOpen(false)}
+
+                  onClick={(e) => handleNavClick(e, link.href)}
                   className="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-mono text-slate-300 hover:text-white hover:bg-white/5 border border-transparent hover:border-white/5 transition-colors"
                 >
                   <span className="flex items-center gap-2">

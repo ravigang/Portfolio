@@ -3,4 +3,3 @@ dist
 .env
 .env.local
 .ds_store
-node_modules

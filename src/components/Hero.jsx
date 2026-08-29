@@ -46,7 +46,7 @@ export default function Hero() {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.9)]"></span>
               </span>
               <span className="font-mono text-xs font-medium text-emerald-400">
-                AVAILABLE FOR WORK
+                  Currently Learning
               </span>
               <span className="text-slate-600 font-mono text-xs">•</span>
               <span className="font-mono text-xs text-slate-400">
@@ -98,7 +98,7 @@ export default function Hero() {
                 <Layers className="w-4 h-4" />
                 <span>ACADEMICS</span>
               </div>
-              <p className="font-semibold text-sm text-slate-200">8.93 CGPA @ LPU</p>
+              <p className="font-semibold text-sm text-slate-200">9.02 CGPA @ LPU</p>
             </div>
 
             <div className="p-3.5 rounded-xl bg-slate-900/50 border border-white/[0.07] backdrop-blur-sm">
@@ -106,7 +106,7 @@ export default function Hero() {
                 <Sparkles className="w-4 h-4" />
                 <span>LOCATION</span>
               </div>
-              <p className="font-semibold text-sm text-slate-200">India (Open to Remote)</p>
+              <p className="font-semibold text-sm text-slate-200">India</p>
             </div>
           </div>
 

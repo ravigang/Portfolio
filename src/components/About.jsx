@@ -21,15 +21,16 @@ export default function About() {
           {/* Left Narrative */}
           <div className="lg:col-span-7 space-y-5 text-slate-300 text-base leading-relaxed">
             <p>
-              I am a Computer Science & Engineering undergraduate at <strong className="text-white font-semibold">Lovely Professional University</strong> with an academic CGPA of <span className="text-blue-400 font-mono font-semibold">8.93</span>. My technical journey centers around building high-integrity backend pipelines, automated ledger reconciliation systems, and responsive modern user interfaces.
+              I am a Computer Science & Engineering undergraduate at <strong className="text-white font-semibold">Lovely Professional University</strong> with an academic CGPA of <span className="text-blue-400 font-mono font-semibold">9.02</span>. I focus on full-stack web development, backend logic, and IoT integrations.
+
             </p>
             
             <p>
-              I thrive on engineering challenges that require strict logic, performance optimization, and clean architectural separation. Whether orchestrating Pandas data pipelines to audit payment feeds against bank logs or integrating the Gemini API to diagnose transaction anomalies, I strive for reliability, role-based safety, and maintainable code.
+              I enjoy building clean, functional applications—from writing database queries and automated data pipelines with Pandas to creating interactive UIs using React and Tailwind CSS. 
             </p>
 
             <p>
-              Beyond systems programming and databases, I have a deep appreciation for modern frontend design—crafting developer tools and web applications with seamless micro-interactions, robust typing, and deliberate aesthetics.
+             Always keen on solving algorithmic problems on various coding platforms and exploring modern web techniques.
             </p>
 
             {/* Core Values / Engineering Principles */}
@@ -39,8 +40,8 @@ export default function About() {
                   <Cpu className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="font-mono text-xs font-semibold text-white uppercase">Automated Engines</h4>
-                  <p className="text-xs text-slate-400 mt-0.5">End-to-end multi-way reconciliation and automated auditing.</p>
+                  <h4 className="font-mono text-xs font-semibold text-white uppercase">Full-Stack Development</h4>
+                  <p className="text-xs text-slate-400 mt-0.5">Building end-to-end web applications with modern frontend and backend tools.</p>
                 </div>
               </div>
 
@@ -49,8 +50,8 @@ export default function About() {
                   <Brain className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="font-mono text-xs font-semibold text-white uppercase">AI Integration</h4>
-                  <p className="text-xs text-slate-400 mt-0.5">Context-aware diagnostics, LLM prompt engineering, and safety.</p>
+                  <h4 className="font-mono text-xs font-semibold text-white uppercase">ALGORITHMS & DATA STRUCTURES</h4>
+                  <p className="text-xs text-slate-400 mt-0.5">Solving core computational problems with strong analytical and algorithmic thinking.</p>
                 </div>
               </div>
 
@@ -59,8 +60,8 @@ export default function About() {
                   <ShieldCheck className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="font-mono text-xs font-semibold text-white uppercase">Role-Safe Security</h4>
-                  <p className="text-xs text-slate-400 mt-0.5">RBAC permissions, key isolation, and environment isolation.</p>
+                  <h4 className="font-mono text-xs font-semibold text-white uppercase">DATABASES</h4>
+                  <p className="text-xs text-slate-400 mt-0.5">Writing SQL queries, managing MongoDB, and processing data with Python..</p>
                 </div>
               </div>
 
@@ -69,8 +70,8 @@ export default function About() {
                   <Zap className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="font-mono text-xs font-semibold text-white uppercase">Performant UI</h4>
-                  <p className="text-xs text-slate-400 mt-0.5">Minimalist, dark-mode interfaces with smooth micro-animations.</p>
+                  <h4 className="font-mono text-xs font-semibold text-white uppercase">Modern UI-UX</h4>
+                  <p className="text-xs text-slate-400 mt-0.5">Crafting clean, responsive dark-mode interfaces using React and Tailwind CSS.</p>
                 </div>
               </div>
             </div>
@@ -97,7 +98,7 @@ export default function About() {
                 <p className="pl-4"><span className="text-indigo-300">name</span>: <span className="text-emerald-300">"Ravi Gangwar"</span>,</p>
                 <p className="pl-4"><span className="text-indigo-300">university</span>: <span className="text-emerald-300">"Lovely Professional University"</span>,</p>
                 <p className="pl-4"><span className="text-indigo-300">degree</span>: <span className="text-emerald-300">"B.Tech Computer Science & Engg."</span>,</p>
-                <p className="pl-4"><span className="text-indigo-300">cgpa</span>: <span className="text-amber-300">8.93</span>,</p>
+                <p className="pl-4"><span className="text-indigo-300">cgpa</span>: <span className="text-amber-300">9.02</span>,</p>
                 <p className="pl-4"><span className="text-indigo-300">status</span>: <span className="text-emerald-400 font-semibold">"Ready for Internships & Full-Time"</span>,</p>
                 <p className="pl-4"><span className="text-indigo-300">locations</span>: [</p>
                 <p className="pl-8"><span className="text-emerald-300">"Phagwara, Punjab"</span>,</p>
