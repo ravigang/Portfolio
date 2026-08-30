@@ -31,7 +31,7 @@ const projects = [
       'Implemented secure environment configuration and role-safe API key isolation to prevent sensitive credential exposure.'
     ],
     techStack: ['Python', 'Streamlit', 'Google Gemini API', 'Pandas', 'CSS', 'Git'],
-    githubUrl: 'https://github.com/ravigang',
+    githubUrl: 'https://github.com/ravigang/recon_agent',
     hasDemo: false,
     color: 'from-blue-500/20 via-indigo-500/10 to-transparent',
     accentBorder: 'border-blue-500/30'
@@ -51,7 +51,7 @@ const projects = [
       'Integrated live clipboard copying and visual entropy evaluation indicators.'
     ],
     techStack: ['HTML', 'CSS', 'JavaScript'],
-    githubUrl: 'https://github.com/ravigang',
+    githubUrl: 'https://github.com/ravigang/Password-generator',
     hasDemo: true,
     color: 'from-emerald-500/20 via-cyan-500/10 to-transparent',
     accentBorder: 'border-emerald-500/30'

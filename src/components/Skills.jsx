@@ -20,9 +20,9 @@ const skillCategories = [
     icon: Code2,
     description: 'Core programming languages used for systems, data analysis, and web engineering.',
     skills: [
-      { name: 'JavaScript', level: 'Advanced', note: 'ES6+, DOM, Asynchronous JS, React ecosystem' },
-      { name: 'Python', level: 'Advanced', note: 'Pandas, Data Pipelines, Gemini API, Streamlit' },
-      { name: 'C', level: 'Proficient', note: 'Data structures, Memory management, Algorithms' },
+      { name: 'JavaScript', level: 'Intermediate', note: 'ES6+, DOM, Asynchronous JS, React ecosystem' },
+      { name: 'Python', level: 'Intermediate', note: 'Pandas, Data Pipelines, Gemini API, Streamlit' },
+      { name: 'C', level: 'Basic', note: 'Data structures, Memory management, Algorithms' },
     ]
   },
   {
@@ -31,10 +31,10 @@ const skillCategories = [
     icon: Layers,
     description: 'Modern libraries and frameworks used to craft reactive frontends and automated apps.',
     skills: [
-      { name: 'React', level: 'Advanced', note: 'Components, Hooks, State Management, Framer Motion' },
-      { name: 'Streamlit', level: 'Advanced', note: 'Data Dashboards, AI audit interfaces, Ledger apps' },
-      { name: 'HTML5', level: 'Expert', note: 'Semantic markup, SEO optimization, Accessibility' },
-      { name: 'CSS3 / Tailwind', level: 'Expert', note: 'Flexbox, Grid, Responsive UI, Glassmorphism' },
+      { name: 'React', level: 'Basic', note: 'Components, Hooks, State Management, Framer Motion' },
+      { name: 'Streamlit', level: 'Basic', note: 'Data Dashboards, AI audit interfaces, Ledger apps' },
+      { name: 'HTML5', level: 'Advanced', note: 'Semantic markup, SEO optimization, Accessibility' },
+      { name: 'CSS3', level: 'Intermediate', note: 'Flexbox, Grid, Responsive UI, Glassmorphism' },
     ]
   },
   {
@@ -43,9 +43,9 @@ const skillCategories = [
     icon: Database,
     description: 'Storage engines, version control systems, deployment platforms, and developer toolchains.',
     skills: [
-      { name: 'PostgreSQL', level: 'Proficient', note: 'Relational schema design, SQL queries, indexing' },
-      { name: 'Git & GitHub', level: 'Advanced', note: 'Branching, PRs, Versioning, CI/CD integrations' },
-      { name: 'Vercel', level: 'Advanced', note: 'Edge deployments, Serverless setups, Preview stages' },
+      { name: 'PostgreSQL', level: 'Intermediate', note: 'Relational schema design, SQL queries, indexing' },
+      { name: 'Git & GitHub', level: 'Basic', note: 'Branching, PRs, Versioning, CI/CD integrations' },
+      { name: 'Vercel', level: 'Basic', note: 'Edge deployments, Serverless setups, Preview stages' },
       { name: 'VS Code', level: 'Power User', note: 'Custom toolchains, Debuggers, Linters, Extensions' },
     ]
   },
@@ -55,7 +55,7 @@ const skillCategories = [
     icon: Users2,
     description: 'Engineering mindset and interpersonal capabilities enabling effective teamwork.',
     skills: [
-      { name: 'Problem Solving', level: 'Strong', note: 'Algorithmic breakdown and context-aware debugging' },
+      { name: 'Problem Solving', level: 'Intermediate', note: 'Algorithmic breakdown and context-aware debugging' },
       { name: 'Team Collaboration', level: 'Strong', note: 'Agile sprints, code reviews, constructive feedback' },
       { name: 'Time Management', level: 'Strong', note: 'Milestone tracking, prioritisation, timely delivery' },
       { name: 'Adaptability', level: 'Strong', note: 'Fast learner of emerging frameworks and AI SDKs' },

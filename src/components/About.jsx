@@ -21,7 +21,7 @@ export default function About() {
           {/* Left Narrative */}
           <div className="lg:col-span-7 space-y-5 text-slate-300 text-base leading-relaxed">
             <p>
-              I am a Computer Science & Engineering undergraduate at <strong className="text-white font-semibold">Lovely Professional University</strong> with an academic CGPA of <span className="text-blue-400 font-mono font-semibold">9.02</span>. I focus on full-stack web development, backend logic, and IoT integrations.
+              I am a Computer Science & Engineering undergraduate at <strong className="text-white font-semibold">Lovely Professional University</strong> with an academic CGPA of <span className="text-blue-400 font-mono font-semibold">8.5</span>. I focus on full-stack web development, backend logic, and IoT integrations.
 
             </p>
             
@@ -98,17 +98,17 @@ export default function About() {
                 <p className="pl-4"><span className="text-indigo-300">name</span>: <span className="text-emerald-300">"Ravi Gangwar"</span>,</p>
                 <p className="pl-4"><span className="text-indigo-300">university</span>: <span className="text-emerald-300">"Lovely Professional University"</span>,</p>
                 <p className="pl-4"><span className="text-indigo-300">degree</span>: <span className="text-emerald-300">"B.Tech Computer Science & Engg."</span>,</p>
-                <p className="pl-4"><span className="text-indigo-300">cgpa</span>: <span className="text-amber-300">9.02</span>,</p>
-                <p className="pl-4"><span className="text-indigo-300">status</span>: <span className="text-emerald-400 font-semibold">"Ready for Internships & Full-Time"</span>,</p>
+                <p className="pl-4"><span className="text-indigo-300">cgpa</span>: <span className="text-amber-300">8.5</span>,</p>
+                <p className="pl-4"><span className="text-indigo-300">status</span>: <span className="text-emerald-400 font-semibold">"Ready for Internships"</span>,</p>
                 <p className="pl-4"><span className="text-indigo-300">locations</span>: [</p>
                 <p className="pl-8"><span className="text-emerald-300">"Phagwara, Punjab"</span>,</p>
                 <p className="pl-8"><span className="text-emerald-300">"Bareilly, UP"</span>,</p>
                 <p className="pl-8"><span className="text-emerald-300">"Remote / Relocate"</span></p>
                 <p className="pl-4">],</p>
                 <p className="pl-4"><span className="text-indigo-300">interests</span>: [</p>
-                <p className="pl-8"><span className="text-emerald-300">"Automated Reconciliation"</span>,</p>
-                <p className="pl-8"><span className="text-emerald-300">"LLM Diagnosis Pipelines"</span>,</p>
-                <p className="pl-8"><span className="text-emerald-300">"Modern Frontend Engineering"</span></p>
+                <p className="pl-8"><span className="text-emerald-300">"Full Stack Development"</span>,</p>
+                <p className="pl-8"><span className="text-emerald-300">"Solving Algorithmic Problems"</span>,</p>
+                <p className="pl-8"><span className="text-emerald-300">"Working with data"</span></p>
                 <p className="pl-4">]</p>
                 <p>&#125;;</p>
               </div>

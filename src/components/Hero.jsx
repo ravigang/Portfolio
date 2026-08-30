@@ -98,7 +98,7 @@ export default function Hero() {
                 <Layers className="w-4 h-4" />
                 <span>ACADEMICS</span>
               </div>
-              <p className="font-semibold text-sm text-slate-200">9.02 CGPA @ LPU</p>
+              <p className="font-semibold text-sm text-slate-200">8.5 CGPA @ LPU</p>
             </div>
 
             <div className="p-3.5 rounded-xl bg-slate-900/50 border border-white/[0.07] backdrop-blur-sm">
