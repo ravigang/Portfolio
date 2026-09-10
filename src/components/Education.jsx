@@ -9,13 +9,13 @@ const educationList = [
     location: 'Phagwara, Punjab',
     degree: 'Bachelor of Technology (B.Tech) in Computer Science & Engineering',
     timeline: 'Aug 2025 – Present',
-    score: 'CGPA: 8.5',
+    score: 'CGPA: 9.02',
     scoreType: 'Current CGPA',
     current: true,
     highlights: [
       'Focusing on Data Structures & Algorithms, Systems Engineering, and Database Architecture.',
       'Active developer experimenting with automated reconciliation pipelines and web architectures.',
-      'Maintaining consistent academic standing with an 8.5 CGPA.'
+      'Maintaining consistent academic standing with an 9.02 CGPA.'
     ]
   },
   {
@@ -321,7 +321,7 @@ export default function Education() {
                   </div>
                 </div>
                 <span className="font-mono font-bold text-sm text-emerald-400">
-                   8.5CGPA
+                   9.02CGPA
                 </span>
               </div>
             </div>
